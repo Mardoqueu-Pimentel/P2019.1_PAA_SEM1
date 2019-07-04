@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+WD=$(dirname $0)
+cd ${WD}
+WD=$(pwd)
+
+venv_name=$(basename ${WD})
+venv_dir=${WD}
+cd ${venv_dir}
+venv_dir=$(pwd)
+
+source <(cat "$WD/venv/bin/activate" | sed -r 's/`basename[^\r\t\n`]+`/'${venv_name}'/g')
+
+unset venv_name
+unset venv_dir
