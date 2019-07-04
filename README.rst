@@ -9,7 +9,15 @@ Add a short description here!
 Description
 ===========
 
-A longer description of your project goes here...
+Como executar os notebooks:
+  - clonar
+  - cd P2019.1_PAA_SEM1
+  - virtualenv venv (primeira vez)
+  - source activate
+  - pip install -r requirements.txt (primeira vez)
+  - python setup.py develop (primeira vez)
+  - cd notebooks
+  - jupyter-notebook
 
 
 Note
