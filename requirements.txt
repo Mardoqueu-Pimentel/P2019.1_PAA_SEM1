@@ -48,7 +48,7 @@ nbconvert==5.5.0
 nbformat==4.4.0
 networkx==2.3
 notebook==5.7.8
-numpy==1.16.4
+numpy==1.22.0
 -e git+https://github.com/Mardoqueu-Pimentel/P2019.1_PAA_SEM1.git@0dd8373bf366ff3eb55409a19965af3ea7b30094#egg=P2019.1_PAA_SEM1
 packaging==19.0
 pandas==0.24.2
